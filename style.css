@@ -1,0 +1,495 @@
+@charset "UTF-8";
+header {
+  background-image: linear-gradient(#00a2ff, rgba(0, 255, 213, 0.966));
+  border-bottom: 5px solid blue;
+}
+
+nav {
+  background-color: rgba(6, 9, 180, 0.699);
+}
+
+.fondo {
+  background-image: linear-gradient(#00ff73, rgba(0, 255, 213, 0.966), blue);
+}
+
+.fondo1 {
+  background-image: linear-gradient(#00ff73, rgba(0, 255, 213, 0.966), blue);
+}
+
+.fondo2 {
+  background-image: linear-gradient(#00ff73, rgba(0, 255, 213, 0.966), blue);
+}
+
+.fondo3 {
+  background-image: linear-gradient(#00ff73, rgba(0, 255, 213, 0.966), blue);
+}
+
+.fondo4 {
+  background-image: linear-gradient(#00ff73, rgba(0, 255, 213, 0.966), blue);
+}
+
+.galeria {
+  height: 1080px;
+  width: 100%;
+}
+
+.galeria .contenedor {
+  width: 100%;
+  height: 1102px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galeria .img {
+  border: 2px solid black;
+}
+
+.galeria article {
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #05054d;
+}
+
+.galeria h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.img1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url(multimedia/img/vigilador.jpg);
+  background-size: cover;
+}
+
+.img2 {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.img3 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.img4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-image: url(multimedia/img/ESCOLTA-DE-MERCADERÍA-300x225.jpg);
+  background-size: cover;
+}
+
+.img5 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-image: url(multimedia/img/tecnologia.jpg);
+  background-size: cover;
+}
+
+.img6 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-align: center;
+  color: #02062b;
+}
+
+nav {
+  background-color: #02062b;
+  height: 40px;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightseagreen;
+  padding: 20px;
+}
+
+li {
+  font-size: 12px;
+  margin: 0 20px;
+  line-height: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.historia {
+  height: 800px;
+  width: 100%;
+}
+
+.article1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+.article2 {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+
+.article3 {
+  padding-left: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+
+.article4 {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+
+footer {
+  width: 100%;
+  background: lightgrey;
+  color: #02062b;
+  text-align: center;
+  border-bottom: solid 2px black;
+}
+
+.table2 {
+  width: 80px;
+  height: 100px;
+  padding: 30px;
+  font-size: 20px;
+  margin: 30px;
+  background-color: #00a2ff;
+}
+
+.box__uno {
+  background-color: #00a2ff;
+  width: 600px;
+  height: 150px;
+  margin: 30px;
+  border: 2px solid blue;
+}
+
+.box__dos {
+  background-color: #00a2ff;
+  width: 600px;
+  height: 150px;
+  margin: 30px;
+  border: 2px solid blue;
+}
+
+.box__tres {
+  background-color: #00a2ff;
+  width: 800px;
+  height: 500px;
+  margin: 30px;
+  border: 2px solid blue;
+}
+
+.comentarios {
+  font-size: 20px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.puesto {
+  font-size: 20px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.contacto {
+  font-size: 25px;
+  margin: 15px;
+  float: right;
+  padding-right: 300px;
+}
+
+.contacto p {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-bottom: 2px black solid;
+}
+
+@media (max-width: 600px) {
+  .historia {
+    background-color: crimson;
+  }
+
+  .galeria .contenedor {
+    width: 100%;
+    height: 1102px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: darkorange;
+  }
+}
+@media (max-width: 600px) and (max-width: 768px) and (orientation: landscape) {
+  .galeria .contenedor {
+    width: 100%;
+    height: 1102px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: radial-gradient(green, yellow);
+  }
+}
+@media (max-width: 600px) and (min-width: 992px) {
+  body {
+    background-image: linear-gradient(aqua, blue);
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    border: 10px solid #02062b;
+  }
+
+  .fondo {
+    background-image: linear-gradient(aqua, blue);
+  }
+
+  .fondo1 {
+    background-image: linear-gradient(aqua, blue);
+  }
+
+  .fondo2 {
+    background-image: linear-gradient(aqua, blue);
+  }
+
+  .fondo3 {
+    background-image: linear-gradient(aqua, blue);
+  }
+
+  .galeria {
+    height: 1080px;
+    width: 100%;
+  }
+
+  .galeria .contenedor {
+    width: 100%;
+    height: 1102px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .galeria .img {
+    border: 2px solid black;
+  }
+
+  .galeria article {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #05054d;
+  }
+
+  .galeria h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(multimedia/img/vigilador.jpg);
+    background-size: cover;
+  }
+
+  .img2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+  .img3 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .img4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(multimedia/img/ESCOLTA-DE-MERCADERÍA-300x225.jpg);
+    background-size: cover;
+  }
+
+  .img5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(multimedia/img/tecnologia.jpg);
+    background-size: cover;
+  }
+
+  .img6 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    text-align: center;
+    color: #02062b;
+  }
+
+  header {
+    background-image: linear-gradient(lightgray, aqua);
+    width: 100%;
+  }
+
+  nav {
+    background-color: #02062b;
+    height: 40px;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: lightseagreen;
+    padding: 20px;
+  }
+
+  li {
+    font-size: 12px;
+    margin: 0 20px;
+    line-height: 30px;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  .historia {
+    height: 800px;
+    width: 100%;
+  }
+
+  .article1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+  }
+
+  .article2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+  }
+
+  .article3 {
+    padding-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+  }
+
+  .article4 {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+  }
+
+  footer {
+    width: 100%;
+    background: lightgrey;
+    color: #02062b;
+    text-align: center;
+    border-bottom: solid 2px black;
+  }
+
+  .table2 {
+    width: 1300px;
+    height: 1100px;
+    padding: 30px;
+    font-size: 20px;
+    margin: 30px;
+  }
+
+  .cv {
+    font-size: 20px;
+    height: 50px;
+    margin-top: 30px;
+  }
+
+  .comentarios {
+    font-size: 20px;
+    height: 50px;
+    margin-top: 30px;
+  }
+
+  .puesto {
+    font-size: 20px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .contacto {
+    font-size: 25px;
+    margin: 15px;
+    float: right;
+    padding-right: 300px;
+  }
+
+  .contacto p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 2px black solid;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
