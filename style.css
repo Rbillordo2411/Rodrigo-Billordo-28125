@@ -137,7 +137,7 @@ li {
 }
 
 .historia {
-  height: 800px;
+  height: 1000px;
   width: 100%;
 }
 
@@ -176,7 +176,15 @@ li {
   word-spacing: 10px;
   letter-spacing: 3px;
 }
-
+.article5 {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  margin-left: 80px;
+}
 footer {
   width: 100%;
   background: lightgrey;
